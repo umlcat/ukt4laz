@@ -1,0 +1,56 @@
+object frmOptionDlg: TfrmOptionDlg
+  Left = 384
+  Height = 280
+  Top = 274
+  Width = 256
+  ActiveControl = lbOptions
+  Caption = 'uktfrmOptionDlg'
+  ClientHeight = 280
+  ClientWidth = 256
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object lbMessage: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 52
+    Caption = 'lbMessage'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 166
+    Height = 25
+    Top = 33
+    Width = 75
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 0
+  end
+  object btnCancel: TButton
+    Left = 166
+    Height = 25
+    Top = 65
+    Width = 75
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 1
+  end
+  object lbOptions: TListBox
+    Left = 8
+    Height = 209
+    Top = 32
+    Width = 145
+    ItemHeight = 0
+    TabOrder = 2
+  end
+end

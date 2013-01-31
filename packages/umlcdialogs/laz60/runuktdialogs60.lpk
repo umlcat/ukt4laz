@@ -1,0 +1,357 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="runuktdialogs60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="sources"/>
+        <OtherUnitFiles Value="sources"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="uktat Dialogs Runtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat's Component Library.                  *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**)"/>
+    <Version Major="1"/>
+    <Files Count="83">
+      <Item1>
+        <Filename Value="sources\ukttransdlgs.pas"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sources\lazuktfrmabout.lfm"/>
+        <Type Value="LFM"/>
+      </Item2>
+      <Item3>
+      </Item3>
+      <Item4>
+        <Filename Value="sources\lazuktfrminputdate.lfm"/>
+        <Type Value="LFM"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sources\lazuktfrminputdate.lrs"/>
+        <Type Value="LRS"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sources\lazuktfrminputdate.pas"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sources\lazuktfrminputint.lfm"/>
+        <Type Value="LFM"/>
+      </Item7>
+      <Item8>
+        <Filename Value="sources\lazuktfrminputint.lrs"/>
+        <Type Value="LRS"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sources\lazuktfrminputint.pas"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sources\lazuktfrminputkeytypevalue.lfm"/>
+        <Type Value="LFM"/>
+      </Item10>
+      <Item11>
+        <Filename Value="sources\lazuktfrminputkeytypevalue.pas"/>
+      </Item11>
+      <Item12>
+        <Filename Value="sources\lazuktfrminputkeytypevaluelist.lfm"/>
+        <Type Value="LFM"/>
+      </Item12>
+      <Item13>
+        <Filename Value="sources\lazuktfrminputkeytypevaluelist.pas"/>
+      </Item13>
+      <Item14>
+        <Filename Value="sources\lazuktfrminputkeytypevaluelistmany.lfm"/>
+        <Type Value="LFM"/>
+      </Item14>
+      <Item15>
+        <Filename Value="sources\lazuktfrminputkeytypevaluelistmany.pas"/>
+      </Item15>
+      <Item16>
+        <Filename Value="sources\lazuktfrminputkeyvalue.lfm"/>
+        <Type Value="LFM"/>
+      </Item16>
+      <Item17>
+        <Filename Value="sources\lazuktfrminputkeyvalue.pas"/>
+      </Item17>
+      <Item18>
+        <Filename Value="sources\lazuktfrminputkeyvaluelist.lfm"/>
+        <Type Value="LFM"/>
+      </Item18>
+      <Item19>
+        <Filename Value="sources\lazuktfrminputkeyvaluelist.pas"/>
+      </Item19>
+      <Item20>
+        <Filename Value="sources\lazuktfrminputkeyvalueoptions.lfm"/>
+        <Type Value="LFM"/>
+      </Item20>
+      <Item21>
+        <Filename Value="sources\lazuktfrminputkeyvalueoptions.pas"/>
+      </Item21>
+      <Item22>
+        <Filename Value="sources\lazuktfrminputmemo.lfm"/>
+        <Type Value="LFM"/>
+      </Item22>
+      <Item23>
+        <Filename Value="sources\lazuktfrminputmemo.lrs"/>
+        <Type Value="LRS"/>
+      </Item23>
+      <Item24>
+        <Filename Value="sources\lazuktfrminputmemo.pas"/>
+       </Item24>
+      <Item25>
+        <Filename Value="sources\lazuktfrminputoptions.lfm"/>
+        <Type Value="LFM"/>
+      </Item25>
+      <Item26>
+        <Filename Value="sources\lazuktfrminputoptions.lrs"/>
+        <Type Value="LRS"/>
+      </Item26>
+      <Item27>
+        <Filename Value="sources\lazuktfrminputoptions.pas"/>
+      </Item27>
+      <Item28>
+        <Filename Value="sources\lazuktfrminputstr.lfm"/>
+        <Type Value="LFM"/>
+      </Item28>
+      <Item29>
+        <Filename Value="sources\lazuktfrminputstr.lrs"/>
+        <Type Value="LRS"/>
+      </Item29>
+      <Item30>
+        <Filename Value="sources\lazuktfrminputstr.pas"/>
+      </Item30>
+      <Item31>
+        <Filename Value="sources\lazuktfrminputstrings.lfm"/>
+        <Type Value="LFM"/>
+      </Item31>
+      <Item32>
+        <Filename Value="sources\lazuktfrminputstrings.lrs"/>
+        <Type Value="LRS"/>
+      </Item32>
+      <Item33>
+        <Filename Value="sources\lazuktfrminputstrings.pas"/>
+      </Item33>
+      <Item34>
+        <Filename Value="sources\lazuktfrminputstringsplus.lfm"/>
+        <Type Value="LFM"/>
+      </Item34>
+      <Item35>
+        <Filename Value="sources\lazuktfrminputstringsplus.lrs"/>
+        <Type Value="LRS"/>
+      </Item35>
+      <Item36>
+        <Filename Value="sources\lazuktfrminputstringsplus.pas"/>
+      </Item36>
+      <Item37>
+        <Filename Value="sources\lazuktfrminputtime.lfm"/>
+        <Type Value="LFM"/>
+      </Item37>
+      <Item38>
+        <Filename Value="sources\lazuktfrminputtime.lrs"/>
+        <Type Value="LRS"/>
+      </Item38>
+      <Item39>
+        <Filename Value="sources\lazuktfrminputtime.pas"/>
+      </Item39>
+      <Item40>
+        <Filename Value="sources\lazuktfrmmsgdlg.lfm"/>
+        <Type Value="LFM"/>
+      </Item40>
+      <Item41>
+        <Filename Value="sources\lazuktfrmmsgdlg.lrs"/>
+        <Type Value="LRS"/>
+      </Item41>
+      <Item42>
+        <Filename Value="sources\lazuktfrmmsgdlg.pas"/>
+      </Item42>
+      <Item43>
+        <Filename Value="sources\lazuktfrmmsgmemo.lfm"/>
+        <Type Value="LFM"/>
+      </Item43>
+      <Item44>
+        <Filename Value="sources\lazuktfrmmsgmemo.lrs"/>
+        <Type Value="LRS"/>
+      </Item44>
+      <Item45>
+        <Filename Value="sources\lazuktfrmmsgmemo.pas"/>
+      </Item45>
+      <Item46>
+        <Filename Value="sources\lazuktfrmoptiondlg.lfm"/>
+        <Type Value="LFM"/>
+      </Item46>
+      <Item47>
+        <Filename Value="sources\lazuktfrmoptiondlg.lrs"/>
+        <Type Value="LRS"/>
+      </Item47>
+      <Item48>
+        <Filename Value="sources\lazuktfrmoptiondlg.pas"/>
+      </Item48>
+      <Item49>
+        <Filename Value="sources\lazuktfrmreplacefielddialog.lfm"/>
+        <Type Value="LFM"/>
+      </Item49>
+      <Item50>
+        <Filename Value="sources\lazuktfrmreplacefielddialog.lrs"/>
+        <Type Value="LRS"/>
+      </Item50>
+      <Item51>
+        <Filename Value="sources\lazuktfrmreplacefielddialog.pas"/>
+      </Item51>
+      <Item52>
+        <Filename Value="sources\lazuktfrmreplacetextdialog.lfm"/>
+        <Type Value="LFM"/>
+      </Item52>
+      <Item53>
+        <Filename Value="sources\lazuktfrmreplacetextdialog.pas"/>
+      </Item53>
+      <Item54>
+        <Filename Value="sources\lazuktfrmsearchfielddialog.lfm"/>
+        <Type Value="LFM"/>
+      </Item54>
+      <Item55>
+        <Filename Value="sources\lazuktfrmsearchfielddialog.lrs"/>
+        <Type Value="LRS"/>
+      </Item55>
+      <Item56>
+        <Filename Value="sources\lazuktfrmsearchfielddialog.pas"/>
+      </Item56>
+      <Item57>
+        <Filename Value="sources\lazuktfrmsearchtextdialog.lfm"/>
+        <Type Value="LFM"/>
+      </Item57>
+      <Item58>
+        <Filename Value="sources\lazuktfrmsearchtextdialog.pas"/>
+      </Item58>
+      <Item59>
+        <Filename Value="sources\lazuktfrmtransstr.lfm"/>
+        <Type Value="LFM"/>
+      </Item59>
+      <Item60>
+        <Filename Value="sources\lazuktfrmtransstr.lrs"/>
+        <Type Value="LRS"/>
+      </Item60>
+      <Item61>
+        <Filename Value="sources\lazuktfrmtransstr.pas"/>
+      </Item61>
+      <Item62>
+        <Filename Value="sources\lazuktfrmtransstrings.lfm"/>
+        <Type Value="LFM"/>
+      </Item62>
+      <Item63>
+        <Filename Value="sources\lazuktfrmtransstrings.lrs"/>
+        <Type Value="LRS"/>
+      </Item63>
+      <Item64>
+        <Filename Value="sources\lazuktfrmtransstrings.pas"/>
+      </Item64>
+      <Item65>
+        <Filename Value="sources\lazuktresabout.pas"/>
+      </Item65>
+      <Item66>
+        <Filename Value="sources\lazuktresinputkeytypevalue.pas"/>
+        <UnitName Value="lazuktresinputkeytypevalue"/>
+      </Item66>
+      <Item67>
+        <Filename Value="sources\lazuktsrchflddlgs.lrs"/>
+        <Type Value="LRS"/>
+      </Item67>
+      <Item68>
+        <Filename Value="sources\lazuktsrchtxtdlgs.lrs"/>
+        <Type Value="LRS"/>
+      </Item68>
+      <Item69>
+        <Filename Value="sources\uktaboutdlgs.pas"/>
+      </Item69>
+      <Item70>
+        <Filename Value="sources\uktdialogs_language.inc"/>
+        <Type Value="Include"/>
+      </Item70>
+      <Item71>
+        <Filename Value="sources\uktdlgctrls.pas"/>
+      </Item71>
+      <Item72>
+        <Filename Value="sources\uktdlgs_language.incpas"/>
+        <Type Value="Text"/>
+      </Item72>
+      <Item73>
+        <Filename Value="sources\uktinputdlgs.pas"/>
+      </Item73>
+      <Item74>
+        <Filename Value="sources\uktkeytypevalueinputdlgs.pas"/>
+      </Item74>
+      <Item75>
+        <Filename Value="sources\uktmsgdlgarrays.pas"/>
+      </Item75>
+      <Item76>
+        <Filename Value="sources\uktmsgdlgs.pas"/>
+      </Item76>
+      <Item77>
+        <Filename Value="sources\uktmsgdlgsmemos.pas"/>
+      </Item77>
+      <Item78>
+        <Filename Value="sources\uktonlystringkeyvalueinputdlgs.pas"/>
+      </Item78>
+      <Item79>
+        <Filename Value="sources\uktoptiondlgs.pas"/>
+      </Item79>
+      <Item80>
+        <Filename Value="sources\uktsrchdlgs.pas"/>
+      </Item80>
+      <Item81>
+        <Filename Value="sources\uktsrchflddlgs.pas"/>
+      </Item81>
+      <Item82>
+        <Filename Value="sources\uktsrchtxtdlgs.pas"/>
+      </Item82>
+      <Item83>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item83>
+    </Files>
+    <RequiredPkgs Count="5">
+      <Item1>
+        <PackageName Value="runukttools60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runuktlib60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCLBase"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+      </Item5>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

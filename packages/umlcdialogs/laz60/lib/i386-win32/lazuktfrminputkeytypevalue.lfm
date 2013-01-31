@@ -1,0 +1,100 @@
+object frminputkeytypevalue: Tfrminputkeytypevalue
+  Left = 347
+  Height = 175
+  Top = 229
+  Width = 281
+  Caption = 'frminputkeytypevalue'
+  ClientHeight = 175
+  ClientWidth = 281
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 152
+    Width = 281
+    Panels = <>
+    SimplePanel = False
+  end
+  object KeyLabel: TLabel
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 45
+    Caption = 'KeyLabel'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object KeyEdit: TEdit
+    Left = 8
+    Height = 21
+    Top = 24
+    Width = 176
+    TabOrder = 1
+  end
+  object TypeLabel: TLabel
+    Left = 10
+    Height = 14
+    Top = 56
+    Width = 51
+    Caption = 'TypeLabel'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object TypeEdit: TEdit
+    Left = 8
+    Height = 21
+    Top = 72
+    Width = 176
+    TabOrder = 2
+  end
+  object ValueLabel: TLabel
+    Left = 10
+    Height = 14
+    Top = 104
+    Width = 54
+    Caption = 'ValueLabel'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object ValueEdit: TEdit
+    Left = 8
+    Height = 21
+    Top = 120
+    Width = 176
+    TabOrder = 3
+  end
+  object btnOK: TButton
+    Left = 192
+    Height = 25
+    Top = 24
+    Width = 75
+    Anchors = [akTop, akRight]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 4
+  end
+  object btnCancel: TButton
+    Left = 192
+    Height = 25
+    Top = 61
+    Width = 75
+    Anchors = [akTop, akRight]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 5
+  end
+end

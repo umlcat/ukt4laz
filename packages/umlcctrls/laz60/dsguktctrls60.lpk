@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="dsguktctrls60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="design"/>
+        <OtherUnitFiles Value="design"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Visual Controls Designtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.          *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**) "/>
+    <Version Major="1"/>
+    <Files Count="30">
+      <Item1>
+        <Filename Value="design\uktarrownavs.lrs"/>
+        <Type Value="LRS"/>
+      </Item1>
+      <Item2>
+        <Filename Value="design\uktbitbtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item2>
+      <Item3>
+        <Filename Value="design\uktcheckboxes.lrs"/>
+        <Type Value="LRS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="design\uktcolorcombos.lrs"/>
+        <Type Value="LRS"/>
+      </Item4>
+      <Item5>
+        <Filename Value="design\uktcomboboxes.lrs"/>
+        <Type Value="LRS"/>
+      </Item5>
+      <Item6>
+        <Filename Value="design\uktcomboedits.lrs"/>
+        <Type Value="LRS"/>
+      </Item6>
+      <Item7>
+        <Filename Value="design\uktctrlsregister.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="uktctrlsregister"/>
+      </Item7>
+      <Item8>
+        <Filename Value="design\uktdropbtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item8>
+      <Item9>
+        <Filename Value="design\uktdropmenubtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item9>
+      <Item10>
+        <Filename Value="design\uktedits.lrs"/>
+        <Type Value="LRS"/>
+      </Item10>
+      <Item11>
+        <Filename Value="design\uktformcontrols.lrs"/>
+        <Type Value="LRS"/>
+      </Item11>
+      <Item12>
+        <Filename Value="design\uktgradpanels.lrs"/>
+        <Type Value="LRS"/>
+      </Item12>
+      <Item13>
+        <Filename Value="design\uktheaderpanels.lrs"/>
+        <Type Value="LRS"/>
+      </Item13>
+      <Item14>
+        <Filename Value="design\uktitemcombos.lrs"/>
+        <Type Value="LRS"/>
+      </Item14>
+      <Item15>
+        <Filename Value="design\uktmaskeds.lrs"/>
+        <Type Value="LRS"/>
+      </Item15>
+      <Item16>
+        <Filename Value="design\uktmemos.lrs"/>
+        <Type Value="LRS"/>
+      </Item16>
+      <Item17>
+        <Filename Value="design\uktmsgpaneltreeviews.lrs"/>
+        <Type Value="LRS"/>
+      </Item17>
+      <Item18>
+        <Filename Value="design\uktpanels.lrs"/>
+        <Type Value="LRS"/>
+      </Item18>
+      <Item19>
+        <Filename Value="design\uktpaneltabctrls.lrs"/>
+        <Type Value="LRS"/>
+      </Item19>
+      <Item20>
+        <Filename Value="design\uktpaneltreeviews.lrs"/>
+        <Type Value="LRS"/>
+      </Item20>
+      <Item21>
+        <Filename Value="design\uktpgctrls.lrs"/>
+        <Type Value="LRS"/>
+      </Item21>
+      <Item22>
+        <Filename Value="design\uktpublictreeviews.lrs"/>
+        <Type Value="LRS"/>
+      </Item22>
+      <Item23>
+        <Filename Value="design\uktspeedbtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item23>
+      <Item24>
+        <Filename Value="design\uktstatetreeviews.lrs"/>
+        <Type Value="LRS"/>
+      </Item24>
+      <Item25>
+        <Filename Value="design\uktstmemos.lrs"/>
+        <Type Value="LRS"/>
+      </Item25>
+      <Item26>
+        <Filename Value="design\ukttogglebitbtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item26>
+      <Item27>
+        <Filename Value="design\ukttogglespeedbtns.lrs"/>
+        <Type Value="LRS"/>
+      </Item27>
+      <Item28>
+        <Filename Value="design\ukttreeviews.lrs"/>
+        <Type Value="LRS"/>
+      </Item28>
+      <Item29>
+        <Filename Value="design\uktarrowdbnavs.lrs"/>
+        <Type Value="LRS"/>
+      </Item29>
+      <Item30>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item30>
+    </Files>
+    <Type Value="DesignTime"/>
+    <RequiredPkgs Count="8">
+      <Item1>
+        <PackageName Value="runuktctrls60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runuktscanners60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runuktstreams60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="runukttools60"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="runuktlib60"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCL"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCLBase"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="FCL"/>
+      </Item8>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

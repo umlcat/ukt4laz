@@ -1,0 +1,29 @@
+{ Este es un archivo de recurso de Lazarus generado automáticamente }
+
+LazarusResources.Add('TuktfrmTransStrings','FORMDATA',[
+  'TPF0'#19'TuktfrmTransStrings'#18'uktfrmTransStrings'#4'Left'#3#247#0#6'Heigh'
+  +'t'#3#150#1#3'Top'#3#187#0#5'Width'#3'`'#1#13'ActiveControl'#7#6'mmDest'#7'C'
+  +'aption'#6#18'uktfrmTransStrings'#12'ClientHeight'#3#150#1#11'ClientWidth'#3
+  +'`'#1#11'Font.Height'#2#245#9'Font.Name'#6#13'MS Sans Serif'#8'OnCreate'#7#10
+  +'FormCreate'#8'Position'#7#15'poDesktopCenter'#10'LCLVersion'#6#8'0.9.28.2'#0
+  +#6'TLabel'#9'lblSource'#4'Left'#2#7#6'Height'#2#14#3'Top'#2#10#5'Width'#2'-'
+  +#7'Caption'#6#9'lblSource'#12'FocusControl'#7#8'mmSource'#11'Font.Height'#2
+  +#245#9'Font.Name'#6#13'MS Sans Serif'#11'ParentColor'#8#10'ParentFont'#8#0#0
+  +#6'TLabel'#7'lblDest'#4'Left'#2#7#6'Height'#2#14#3'Top'#3#162#0#5'Width'#2'!'
+  +#7'Caption'#6#7'lblDest'#12'FocusControl'#7#6'mmDest'#11'Font.Height'#2#245#9
+  +'Font.Name'#6#13'MS Sans Serif'#11'ParentColor'#8#10'ParentFont'#8#0#0#7'TBu'
+  +'tton'#5'btnOK'#4'Left'#3#182#0#6'Height'#2#25#3'Top'#3'A'#1#5'Width'#2'K'#7
+  +'Anchors'#11#7'akRight'#8'akBottom'#0#7'Caption'#6#5'btnOK'#7'Default'#9#11
+  +'ModalResult'#2#2#7'OnClick'#7#10'btnOKClick'#8'TabOrder'#2#1#0#0#7'TButton'
+  +#9'btnCancel'#4'Left'#3#6#1#6'Height'#2#25#3'Top'#3'A'#1#5'Width'#2'K'#7'Anc'
+  +'hors'#11#7'akRight'#8'akBottom'#0#6'Cancel'#9#7'Caption'#6#9'btnCancel'#11
+  +'ModalResult'#2#1#7'OnClick'#7#14'btnCancelClick'#8'TabOrder'#2#2#0#0#5'TMem'
+  +'o'#8'mmSource'#4'Left'#2#8#6'Height'#2'y'#3'Top'#2' '#5'Width'#3'I'#1#7'Anc'
+  +'hors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#5'Color'#7#9'clBtnFace'
+  +#8'ReadOnly'#9#10'ScrollBars'#7#6'ssBoth'#8'TabOrder'#2#0#8'WordWrap'#8#0#0
+  +#10'TStatusBar'#11'sbStatusBar'#4'Left'#2#0#6'Height'#2#23#3'Top'#3#127#1#5
+  +'Width'#3'`'#1#6'Panels'#14#0#11'SimplePanel'#8#0#0#5'TMemo'#6'mmDest'#4'Lef'
+  +'t'#2#7#6'Height'#2'y'#3'Top'#3#184#0#5'Width'#3'I'#1#7'Anchors'#11#5'akTop'
+  +#6'akLeft'#7'akRight'#8'akBottom'#0#10'ScrollBars'#7#6'ssBoth'#8'TabOrder'#2
+  +#4#8'WordWrap'#8#0#0#0
+]);

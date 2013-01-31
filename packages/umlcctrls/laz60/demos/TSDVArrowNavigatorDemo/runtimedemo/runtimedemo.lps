@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="runtimedemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="runtimedemo"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ufrmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmmain"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmmain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="31" Y="30"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\sources\sdvarrownavs.pas"/>
+        <UnitName Value="sdvarrownavs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="327"/>
+        <CursorPos X="11" Y="333"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="138"/>
+        <CursorPos X="10" Y="145"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\sources\sdvtoolbars.pas"/>
+        <UnitName Value="sdvtoolbars"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="5" Y="12"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="39" Column="15" TopLine="26"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="52" Column="27" TopLine="35"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="30" Column="31" TopLine="14"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="52" Column="22" TopLine="56"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="56" Column="14" TopLine="53"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="76" Column="20" TopLine="65"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="76" Column="16" TopLine="65"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="30" Column="31" TopLine="21"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

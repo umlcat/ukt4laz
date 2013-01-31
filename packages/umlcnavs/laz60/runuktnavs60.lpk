@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="runuktnavs60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="sources"/>
+        <OtherUnitFiles Value="sources"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Visual Navigators Runtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.                    *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**)"/>
+    <Version Major="1"/>
+    <Files Count="10">
+      <Item1>
+        <Filename Value="sources\uktvclosenavs.pas"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sources\uktclosenavenums.pas"/>
+      </Item2>
+      <Item3>
+        <Type Value="LRS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="sources\uktclosenavs.pas"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sources\uktclosenavstrs.pas"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sources\uktevargbtns.pas"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sources\ukteventargs.pas"/>
+      </Item7>
+      <Item8>
+        <Filename Value="sources\uktfixedbtnpanels.pas"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sources\ukthclosenavs.pas"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sources\uktnavs_language.inc"/>
+        <Type Value="Include"/>
+      </Item10>
+    </Files>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="runuktctrls60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runukttools60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runuktlib60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCLBase"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="FCL"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

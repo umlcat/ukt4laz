@@ -1,0 +1,64 @@
+object uktfrminputkeyvaluelist: Tuktfrminputkeyvaluelist
+  Left = 353
+  Height = 289
+  Top = 167
+  Width = 352
+  Caption = 'uktfrminputkeyvaluelist'
+  ClientHeight = 289
+  ClientWidth = 352
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object lblMessage: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 54
+    Caption = 'lblMessage'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 232
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 0
+  end
+  object btnCancel: TButton
+    Left = 262
+    Height = 25
+    Top = 232
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 1
+  end
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 266
+    Width = 352
+    Panels = <>
+    SimplePanel = False
+  end
+  object ItemsListBox: TListBox
+    Left = 8
+    Height = 184
+    Top = 32
+    Width = 328
+    ItemHeight = 0
+    TabOrder = 3
+  end
+end

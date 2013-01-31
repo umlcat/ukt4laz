@@ -1,0 +1,93 @@
+object uktfrmTransStrings: TuktfrmTransStrings
+  Left = 247
+  Height = 405
+  Top = 187
+  Width = 352
+  ActiveControl = mmDest
+  Caption = 'uktfrmTransStrings'
+  ClientHeight = 405
+  ClientWidth = 352
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object lblSource: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 45
+    Caption = 'lblSource'
+    FocusControl = mmSource
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblDest: TLabel
+    Left = 7
+    Height = 14
+    Top = 162
+    Width = 33
+    Caption = 'lblDest'
+    FocusControl = mmDest
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 320
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 262
+    Height = 25
+    Top = 320
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 2
+  end
+  object mmSource: TMemo
+    Left = 8
+    Height = 120
+    Top = 32
+    Width = 329
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Color = clBtnFace
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 382
+    Width = 352
+    Panels = <>
+    SimplePanel = False
+  end
+  object mmDest: TMemo
+    Left = 7
+    Height = 120
+    Top = 184
+    Width = 329
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ScrollBars = ssBoth
+    TabOrder = 4
+    WordWrap = False
+  end
+end

@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="runuktlib60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <OtherUnitFiles Value="sources"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Utilities Library Runtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.          *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**)"/>
+    <Files Count="64">
+      <Item1>
+        <Filename Value="sources\uktwin16colors.pas"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sources\uktansiarrays.pas"/>
+      </Item2>
+      <Item3>
+        <Filename Value="sources\uktansibreaks.pas"/>
+      </Item3>
+      <Item4>
+        <Filename Value="sources\uktansichars.pas"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sources\uktansicharsetconsts.pas"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sources\uktansicharsets.pas"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sources\uktansimemos.pas"/>
+      </Item7>
+      <Item8>
+        <Filename Value="sources\uktansinullstrs.pas"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sources\uktansistrings.pas"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sources\uktasciitoutf32.pas"/>
+      </Item10>
+      <Item11>
+        <Filename Value="sources\uktbooleans.pas"/>
+      </Item11>
+      <Item12>
+        <Filename Value="sources\uktcomparisons.pas"/>
+      </Item12>
+      <Item13>
+        <Filename Value="sources\uktconfigs.pas"/>
+      </Item13>
+      <Item14>
+        <Filename Value="sources\uktdates.pas"/>
+      </Item14>
+      <Item15>
+        <Filename Value="sources\uktdatetimes.pas"/>
+      </Item15>
+      <Item16>
+        <Filename Value="sources\uktdays.pas"/>
+      </Item16>
+      <Item17>
+        <Filename Value="sources\uktdecs.pas"/>
+      </Item17>
+      <Item18>
+        <Filename Value="sources\uktdoscolors.pas"/>
+      </Item18>
+      <Item19>
+        <Filename Value="sources\uktdoubles.pas"/>
+      </Item19>
+      <Item20>
+        <Filename Value="sources\uktenumstrs.pas"/>
+      </Item20>
+      <Item21>
+        <Filename Value="sources\uktfilesbyhandler.pas"/>
+      </Item21>
+      <Item22>
+        <Filename Value="sources\uktfilesbyname.pas"/>
+      </Item22>
+      <Item23>
+        <Filename Value="sources\uktfloats.pas"/>
+      </Item23>
+      <Item24>
+        <Filename Value="sources\uktfoldersbyname.pas"/>
+      </Item24>
+      <Item25>
+        <Filename Value="sources\uktguids.pas"/>
+      </Item25>
+      <Item26>
+        <Filename Value="sources\uktguidstrs.pas"/>
+      </Item26>
+      <Item27>
+        <Filename Value="sources\ukthexas.pas"/>
+      </Item27>
+      <Item28>
+        <Filename Value="sources\uktiterators.pas"/>
+      </Item28>
+      <Item29>
+        <Filename Value="sources\uktkeyconsts.pas"/>
+      </Item29>
+      <Item30>
+        <Filename Value="sources\uktkeytypevaluetokens.pas"/>
+      </Item30>
+      <Item31>
+        <Filename Value="sources\uktkeyvaluemodes.pas"/>
+      </Item31>
+      <Item32>
+        <Filename Value="sources\uktlangs.pas"/>
+      </Item32>
+      <Item33>
+        <Filename Value="sources\uktlib_language.inc"/>
+        <Type Value="Include"/>
+      </Item33>
+      <Item34>
+        <Filename Value="sources\uktlibc.pas"/>
+      </Item34>
+      <Item35>
+        <Filename Value="sources\uktlists.pas"/>
+      </Item35>
+      <Item36>
+        <Filename Value="sources\uktmaskarrays.pas"/>
+      </Item36>
+      <Item37>
+        <Filename Value="sources\uktmonths.pas"/>
+      </Item37>
+      <Item38>
+        <Filename Value="sources\uktnormobjects.pas"/>
+      </Item38>
+      <Item39>
+        <Filename Value="sources\uktobjtypes.pas"/>
+      </Item39>
+      <Item40>
+        <Filename Value="sources\uktonlystringkeytypevaluelists.pas"/>
+      </Item40>
+      <Item41>
+        <Filename Value="sources\uktonlystringkeyvaluelists.pas"/>
+      </Item41>
+      <Item42>
+        <Filename Value="sources\uktossearchfiles.pas"/>
+      </Item42>
+      <Item43>
+        <Filename Value="sources\uktossys.pas"/>
+      </Item43>
+      <Item44>
+        <Filename Value="sources\uktpaths.pas"/>
+      </Item44>
+      <Item45>
+        <Filename Value="sources\uktreclists.pas"/>
+      </Item45>
+      <Item46>
+        <Filename Value="sources\uktresbooleans.pas"/>
+      </Item46>
+      <Item47>
+        <Filename Value="sources\uktresconfigs.pas"/>
+      </Item47>
+      <Item48>
+        <Filename Value="sources\uktresdays.pas"/>
+      </Item48>
+      <Item49>
+        <Filename Value="sources\uktresdoscolors.pas"/>
+      </Item49>
+      <Item50>
+        <Filename Value="sources\uktreslangs.pas"/>
+      </Item50>
+      <Item51>
+        <Filename Value="sources\uktreslists.pas"/>
+      </Item51>
+      <Item52>
+        <Filename Value="sources\uktresmonths.pas"/>
+      </Item52>
+      <Item53>
+        <Filename Value="sources\uktreswin16colors.pas"/>
+      </Item53>
+      <Item54>
+        <Filename Value="sources\uktrgbs.pas"/>
+      </Item54>
+      <Item55>
+        <Filename Value="sources\uktrgbstrs.pas"/>
+      </Item55>
+      <Item56>
+        <Filename Value="sources\uktshortansistrs.pas"/>
+      </Item56>
+      <Item57>
+        <Filename Value="sources\uktstrings.pas"/>
+      </Item57>
+      <Item58>
+        <Filename Value="sources\uktstrparsers.pas"/>
+      </Item58>
+      <Item59>
+        <Filename Value="sources\uktstrstrlists.pas"/>
+      </Item59>
+      <Item60>
+        <Filename Value="sources\ukttextconsts.pas"/>
+      </Item60>
+      <Item61>
+        <Filename Value="sources\ukttextmarkers.pas"/>
+      </Item61>
+      <Item62>
+        <Filename Value="sources\ukttimes.pas"/>
+      </Item62>
+      <Item63>
+        <Filename Value="sources\ukttimestamps.pas"/>
+      </Item63>
+      <Item64>
+        <Filename Value="sources\dummy.pas"/>
+      </Item64>
+    </Files>
+    <RequiredPkgs Count="2">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

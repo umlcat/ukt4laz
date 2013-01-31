@@ -1,0 +1,69 @@
+object uktfrmInputMemo: TuktfrmInputMemo
+  Left = 264
+  Height = 288
+  Top = 187
+  Width = 352
+  ActiveControl = mmAnswer
+  Caption = 'uktfrmInputMemo'
+  ClientHeight = 288
+  ClientWidth = 352
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object lbMessage: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 52
+    Caption = 'lbMessage'
+    FocusControl = mmAnswer
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 208
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 262
+    Height = 25
+    Top = 208
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 2
+  end
+  object mmAnswer: TMemo
+    Left = 8
+    Height = 161
+    Top = 32
+    Width = 329
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 265
+    Width = 352
+    Panels = <>
+    SimplePanel = False
+  end
+end

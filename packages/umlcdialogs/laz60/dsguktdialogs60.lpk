@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="dsguktdialogs60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="design"/>
+        <OtherUnitFiles Value="design"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="uktat Dialog Component Libraries Designtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat's Component Library.                  *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**) "/>
+    <Version Major="1"/>
+    <Files Count="5">
+      <Item1>
+        <Filename Value="design\uktsrchtxtdlgs.lrs"/>
+        <Type Value="LRS"/>
+      </Item1>
+      <Item2>
+        <Filename Value="design\uktaboutdlgs.lrs"/>
+        <Type Value="LRS"/>
+      </Item2>
+      <Item3>
+        <Filename Value="design\uktdialogsregister.pas"/>
+        <HasRegisterProc Value="True"/>
+      </Item3>
+      <Item4>
+        <Filename Value="design\uktsrchflddlgs.lrs"/>
+        <Type Value="LRS"/>
+      </Item4>
+      <Item5>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item5>
+    </Files>
+    <Type Value="DesignTime"/>
+    <RequiredPkgs Count="6">
+      <Item1>
+        <PackageName Value="runuktdialogs60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runukttools60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runuktlib60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCLBase"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="FCL"/>
+      </Item6>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="dsguktfctrls60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="design"/>
+        <OtherUnitFiles Value="design"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Visual Focused Controls Designtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.          *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**) "/>
+    <Version Major="1"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item1>
+      <Item2>
+        <Filename Value="design\uktfmngrs.lrs"/>
+        <Type Value="LRS"/>
+      </Item2>
+      <Item3>
+        <Filename Value="design\uktdbfctrls.lrs"/>
+        <Type Value="LRS"/>
+      </Item3>
+      <Item4>
+        <Filename Value="design\uktfctrls.lrs"/>
+        <Type Value="LRS"/>
+      </Item4>
+      <Item5>
+        <Filename Value="design\uktfctrlsregister.pas"/>
+        <HasRegisterProc Value="True"/>
+      </Item5>
+      <Item6>
+        <Filename Value="design\uktfedits.lrs"/>
+        <Type Value="LRS"/>
+      </Item6>
+      <Item7>
+        <Filename Value="design\uktfmaskeds.lrs"/>
+        <Type Value="LRS"/>
+      </Item7>
+      <Item8>
+        <Filename Value="design\uktfmemos.lrs"/>
+        <Type Value="LRS"/>
+      </Item8>
+    </Files>
+    <Type Value="DesignTime"/>
+    <RequiredPkgs Count="9">
+      <Item1>
+        <PackageName Value="runuktfctrls60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runuktctrls60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runukttrees60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="runuktstreams60"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="runukttools60"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="runuktlib60"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCL"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="LCLBase"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="FCL"/>
+      </Item9>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>

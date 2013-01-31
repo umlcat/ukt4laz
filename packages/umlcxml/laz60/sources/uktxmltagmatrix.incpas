@@ -1,0 +1,74 @@
+(*****************************************************************************
+ *                                                                           *
+ *  This file is part of the UMLCat Component Library.                       *
+ *                                                                           *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution,    *
+ *  for details about the copyright.                                         *
+ *                                                                           *
+ *  This program is distributed in the hope that it will be useful,          *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of           *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                     *
+ *                                                                           *
+ *****************************************************************************
+ **)
+
+(* "uktxmltagMatrix.incpas" *)
+
+const
+  stLow  = 00;
+  stHigh = 06;
+
+var Matrix: array[stLow..stHigh, TXMLTagGroup] of TSDVState =
+  (
+  {00} (-5, 02, -5, -5, 104, 04, 06, 103, 102, 101, 00, -5),
+  {01} (02, 02, 02, 03, 105, 105, 105, 105, 105, 105, 105, 105),
+  {02} (02, 02, 02, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {03} (05, 05, 05, 05, 05, 106, 05, 05, -3, -2, -1, 05),
+  {04} (05, 05, 05, 05, 05, 106, 05, 05, -3, -2, -1, 05),
+  {05} (07, 07, 07, 07, 07, 07, 106, 07, -3, -2, -1, 07),
+  {06} (07, 07, 07, 07, 07, 07, 106, 07, -3, -2, -1, 07)
+  );
+
+function CanSave(const S: TSDVState): Boolean;
+begin
+//  Result := (S = 101) or not (S > 99);
+  Result :=
+   (S <> 1) and (S <> 4) and (S <> 6) and
+   (S <> 105) and (S <> 106)
+  { Goal: Returns if the current character should be stored .}
+  { Objetivo: Regresa si el caracter actual debe ser almacenado .}
+end;
+
+function CanMove(const S: TSDVState): Boolean;
+begin
+  Result := (S <> 1) and (S <> 105);
+  { Goal: Returns if the current character pointer should move .}
+  { Objetivo: Regresa si el apuntador al caracter actual debe moverse .}
+end;
+
+function IsTerminal(const S: TSDVState): Boolean;
+begin
+  Result := (S < Succ(stLow)) or (S > Succ(stHigh));
+end;
+
+function NextState(const S: TSDVState; const G: TXMLTagGroup): TSDVState;
+begin
+  Result := Matrix[Pred(S), G];
+end;
+
+function StateToToken(const State: TSDVState): TXMLTagToken;
+begin
+  case (State) of
+    000:  Result := xmltagtkEoF;
+
+    101:  Result := xmltagtkEoPg;
+    102:  Result := xmltagtkEoLn;
+    103:  Result := xmltagtkSpace;
+    104:  Result := xmltagtkAssign;
+    105:  Result := xmltagtkAttribute;
+    106:  Result := xmltagtkValue;
+
+    else Result := xmltagtkNone;
+  end;
+end;
+

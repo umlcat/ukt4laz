@@ -1,0 +1,104 @@
+object uktfrmInputStringsPlus: TuktfrmInputStringsPlus
+  Left = 449
+  Height = 320
+  Top = 190
+  Width = 352
+  Caption = 'uktfrmInputStringsPlus'
+  ClientHeight = 320
+  ClientWidth = 352
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object lblLabel1: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 43
+    Caption = 'lblLabel1'
+    FocusControl = mmAnswer
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblLabel2: TLabel
+    Left = 7
+    Height = 14
+    Top = 194
+    Width = 43
+    Caption = 'lblLabel2'
+    FocusControl = edAdditional
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 240
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 1
+  end
+  object btnCancel: TButton
+    Left = 262
+    Height = 25
+    Top = 240
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 2
+  end
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 297
+    Width = 352
+    Panels = <>
+    SimplePanel = False
+  end
+  object mmAnswer: TCheckListBox
+    Left = 8
+    Height = 161
+    Top = 24
+    Width = 329
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    TabOrder = 0
+  end
+  object edAdditional: TEdit
+    Left = 8
+    Height = 21
+    Top = 208
+    Width = 297
+    TabOrder = 4
+  end
+  object btnAdd: TBitBtn
+    Left = 312
+    Height = 22
+    Top = 208
+    Width = 23
+    Glyph.Data = {
+      F6000000424DF600000000000000760000002800000010000000100000000100
+      0400000000008000000000000000000000001000000000000000000000000000
+      8000008000000080800080000000800080008080000080808000C0C0C0000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00666666666666
+      66666666666666666666600000000000000660FBFBFBFB00FB0660BFBFBFBF08
+      0F0660FBFBFBFB0B800660BFBFBFBF000006F0F8BFBFBBFBFB066BB8FB8BFFBF
+      BF0666F8B8BFBBFBFB06668F8FBFBFBFBF06FB8BF8666000000666B6B6B66666
+      66666B66F66B66666666B666B666666666666666F66666666666
+    }
+    OnClick = btnAddClick
+    TabOrder = 5
+  end
+end

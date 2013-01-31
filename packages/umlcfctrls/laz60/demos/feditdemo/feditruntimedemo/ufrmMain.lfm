@@ -1,0 +1,61 @@
+object frmMain: TfrmMain
+  Left = 258
+  Height = 480
+  Top = 187
+  Width = 696
+  Caption = 'frmMain'
+  ClientHeight = 480
+  ClientWidth = 696
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object sbStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 457
+    Width = 696
+    Panels = <>
+    SimplePanel = False
+  end
+  object pnTop: TPanel
+    Left = 0
+    Height = 41
+    Top = 0
+    Width = 696
+    Align = alTop
+    ClientHeight = 41
+    ClientWidth = 696
+    TabOrder = 1
+    object btnExit: TBitBtn
+      Left = 606
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'btnExit'
+      Kind = bkClose
+      TabOrder = 0
+    end
+    object btnConnect: TButton
+      Left = 6
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'btnConnect'
+      OnClick = btnConnectClick
+      TabOrder = 1
+    end
+    object btnDisconnect: TButton
+      Left = 86
+      Height = 25
+      Top = 6
+      Width = 75
+      Caption = 'btnDisconnect'
+      OnClick = btnDisconnectClick
+      TabOrder = 2
+    end
+  end
+end

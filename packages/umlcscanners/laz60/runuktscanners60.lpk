@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="runuktscanners60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="sources"/>
+        <OtherUnitFiles Value="sources"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Parsing Component Libraries Runtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.                    *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**)
+     "/>
+    <Version Major="1"/>
+    <Files Count="13">
+      <Item1>
+        <Filename Value="sources\ukttagstyles.pas"/>
+        <UnitName Value="ukttagstyles"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sources\uktmacros.pas"/>
+        <UnitName Value="uktmacros"/>
+      </Item2>
+      <Item3>
+        <Filename Value="sources\uktscanneroptions.pas"/>
+        <UnitName Value="uktscanneroptions"/>
+      </Item3>
+      <Item4>
+        <Filename Value="sources\uktscanners.pas"/>
+        <UnitName Value="uktscanners"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sources\uktscanners_language.inc"/>
+        <Type Value="Include"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sources\uktscannerstates.pas"/>
+        <UnitName Value="uktscannerstates"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sources\ukttagclasses.pas"/>
+        <UnitName Value="ukttagclasses"/>
+      </Item7>
+      <Item8>
+        <Filename Value="sources\ukttagdictionaries.pas"/>
+        <UnitName Value="ukttagdictionaries"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sources\ukttagpages.pas"/>
+        <UnitName Value="ukttagpages"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sources\ukttagprops.pas"/>
+        <UnitName Value="ukttagprops"/>
+      </Item10>
+      <Item11>
+        <Filename Value="sources\ukttagscanners.pas"/>
+        <UnitName Value="uktTagScanners"/>
+      </Item11>
+      <Item12>
+        <Filename Value="sources\ukttagsrchtypes.pas"/>
+        <UnitName Value="uktTagSrchTypes"/>
+      </Item12>
+      <Item13>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item13>
+    </Files>
+    <RequiredPkgs Count="7">
+      <Item1>
+        <PackageName Value="runukttrees60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runuktstreams60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runukttools60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="runuktlib60"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="LCL"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="LCLBase"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="FCL"/>
+      </Item7>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

@@ -1,0 +1,102 @@
+(*****************************************************************************
+ *                                                                           *
+ *  This file is part of the UMLCat Component Library.                       *
+ *                                                                           *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution,    *
+ *  for details about the copyright.                                         *
+ *                                                                           *
+ *  This program is distributed in the hope that it will be useful,          *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of           *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                     *
+ *                                                                           *
+ *****************************************************************************
+ **)
+
+(* "uktxmlfileMatrix.incpas" *)
+
+const
+  stLow  = 00;
+  stHigh = 24;
+
+var Matrix: array[stLow..stHigh, TXMLFileGroup] of TSDVState =
+  (
+  {00} (25, 25, 25, 25, 19, 25, 25, 25, 25, 25, 02, -7, 25, 25, 52, 51, 50, 00, 25),
+  {01} (10, 10, 10, 10, 10, 10, 03, 06, 08, 10, -6, -7, 10, 10, 10, 10, 10, -1, 10),
+  {02} (04, 04, 04, 04, 04, 04, 04, 04, 04, 04, -6, -7, 04, 04, 04, 04, 04, -1, 04),
+  {03} (04, 04, 04, 04, 04, 04, 05, 04, 04, 04, -6, -7, 04, 04, 04, 04, 04, -1, 04),
+  {04} (-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -6, 54, -5, -5, -4, -3, -2, -1, -5),
+  {05} (07, 07, 07, 07, 07, 07, 07, 07, 07, 07, -6, -7, 07, 07, 07, 07, 07, -1, 07),
+  {06} (07, 07, 07, 07, 07, 07, 07, 07, 07, 07, -6, 55, 07, 07, 07, 07, 07, -1, 07),
+  {07} (-5, 09, 09, 09, -5, -5, -5, -5, -5, -5, -6, -7, 09, 09, -4, -3, -2, -1, -5),
+  {08} (09, 09, 09, 09, 09, 09, 09, 09, 09, 09, -6, 56, 09, 09, 09, 09, 09, -1, 09),
+  {09} (10, 10, 10, 10, 10, 10, 10, 10, 11, 10, -6, 57, 13, 16, 10, 10, 10, 10, 10),
+  {10} (-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -6, 58, -5, -5, 12, -3, -2, -1, -5),
+  {11} (-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -6, 58, -5, -5, 12, -3, -2, -1, -5),
+  {12} (14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 14, 14, -3, -2, -1, 00),
+  {13} (14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 15, 14, 14, -3, -2, -1, 14),
+  {14} (10, 10, 10, 10, 10, 10, 10, 10, 11, 10, -6, 57, 13, 16, 10, -3, -2, -1, 10),
+  {15} (17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 17, -3, -2, -1, 17),
+  {16} (17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 18, 17, -3, -2, -1, 17),
+  {17} (10, 10, 10, 10, 10, 10, 10, 10, 11, 10, -6, 57, 13, 16, 10, -3, -2, -1, 10),
+  {18} (-5, 20, 20, 20, -5, 21, -5, -5, -5, -5, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {19} (-5, 20, 20, 20, -5, -5, -5, -5, -5, 59, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {20} (22, -5, -5, 23, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {21} (22, -5, -5, -5, -5, -5, -5, -5, -5, 60, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {22} (24, 24, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {23} (24, 24, -5, -5, -5, -5, -5, -5, -5, 61, -5, -5, -5, -5, -4, -3, -2, -1, -5),
+  {24} (25, 25, 25, 25, 53, 25, 25, 25, 25, 25, 53, -7, 25, 25, 53, 53, 53, 53, 25)
+  );
+
+function CanSave(const S: TSDVState): Boolean;
+begin
+  // states that aren*t marked with "*" and "#":
+  // estados que no estan marcados con "*" y "#":
+  Result :=
+    not (S in
+    [00, 01, 02, 03, 05, 06, 08, 11, 19, 21, 23,
+     53, 54, 55, 56, 57, 58, 59, 60, 61]);
+  { Goal: Returns if the current character should be stored .}
+  { Objetivo: Regresa si el caracter actual debe ser almacenado .}
+end;
+
+function CanMove(const S: TSDVState): Boolean;
+begin
+  // states that aren*t marked with "*":
+  // estados que no estan marcados con "*":
+  Result := not (S in [00, 01, 53]);
+  { Goal: Returns if the current character pointer should move .}
+  { Objetivo: Regresa si el apuntador al caracter actual debe moverse .}
+end;
+
+function IsTerminal(const S: TSDVState): Boolean;
+begin
+  Result := (S < Succ(stLow)) or (S > Succ(stHigh));
+end;
+
+function NextState(const S: TSDVState; const G: TXMLFileGroup): TSDVState;
+begin
+  Result := Matrix[Pred(S), G];
+end;
+
+function StateToToken(const State: TSDVState): TXMLFiletoken;
+begin
+  case (State) of
+    00:  Result := xmlfiletkEoF;
+    50:  Result := xmlfiletkEoPg;
+    51:  Result := xmlfiletkEoLn;
+    52:  Result := xmlfiletkSpace;
+    53:  Result := xmlfiletkText;
+    54:  Result := xmlfiletkEncoding;
+    55:  Result := xmlfiletkComment;
+    56:  Result := xmlfiletkFinish;
+    57:  Result := xmlfiletkStart;
+    58:  Result := xmlfiletkSingle;
+    59:  Result := xmlfiletkEntity;
+    60:  Result := xmlfiletkDecimal;
+    61:  Result := xmlfiletkHexaDecimal;
+    else Result := xmlfiletkNone;
+  end;
+  { Objetivo: Regresa la ficha que corresponde a un estado terminal .}
+  { Goal: Returns the token for a terminal state .}
+end;
+

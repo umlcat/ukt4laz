@@ -1,0 +1,203 @@
+object uktfrmSearchFieldDialog: TuktfrmSearchFieldDialog
+  Left = 317
+  Height = 246
+  Top = 284
+  Width = 424
+  ActiveControl = chbSearchRegularExpressions
+  BorderStyle = bsSingle
+  Caption = 'uktfrmSearchFieldDialog'
+  ClientHeight = 246
+  ClientWidth = 424
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Icon.Data = {
+    3E01000000000100010010101000000000002801000016000000280000001000
+    0000200000000100040000000000C00000000000000000000000000000000000
+    0000000000000000800000800000008080008000000080008000808000008080
+    8000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFF
+    FF000000000000000000077777000007777700000700000000070F000700000F
+    00070F000700000F0007000000000000000700F000000F00000700F000F00F00
+    000700F000F00F0000070000000000000070000F00070F000700000000070000
+    000000000070000070000000F07000F070000000007000007000000000000000
+    0000FFFF000083E0000003C0000003C0000003C0000001000000000000000000
+    00000000000080010000C0030000C0070000E1870000E1870000E1870000FFFF
+    0000
+  }
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object lbSearchTextToSearch: TLabel
+    Left = 8
+    Height = 14
+    Top = 12
+    Width = 111
+    Caption = 'lbSearchTextToSearch'
+    FocusControl = edSearchTextToSearch
+    ParentColor = False
+  end
+  object lbFieldName: TLabel
+    Left = 8
+    Height = 14
+    Top = 36
+    Width = 59
+    Caption = 'lbFieldName'
+    FocusControl = cbFieldName
+    ParentColor = False
+  end
+  object btnOK: TButton
+    Left = 133
+    Height = 25
+    Top = 216
+    Width = 92
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 1
+    OnClick = btnOKClick
+    TabOrder = 0
+  end
+  object btnCancel: TButton
+    Left = 229
+    Height = 25
+    Top = 216
+    Width = 92
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 2
+    OnClick = btnCancelClick
+    TabOrder = 1
+  end
+  object btnHelp: TButton
+    Left = 325
+    Height = 25
+    Top = 216
+    Width = 92
+    Caption = 'btnHelp'
+    OnClick = btnHelpClick
+    TabOrder = 2
+  end
+  object gbSearchOptions: TGroupBox
+    Left = 8
+    Height = 73
+    Top = 56
+    Width = 201
+    Caption = 'gbSearchOptions'
+    ClientHeight = 55
+    ClientWidth = 197
+    TabOrder = 3
+    object chbSearchCaseSensitive: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 16
+      Width = 137
+      Caption = 'chbSearchCaseSensitive'
+      TabOrder = 0
+    end
+    object chbSearchWholeWordsOnly: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 32
+      Width = 153
+      Caption = 'chbSearchWholeWordsOnly'
+      TabOrder = 1
+    end
+    object chbSearchRegularExpressions: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 48
+      Width = 163
+      Caption = 'chbSearchRegularExpressions'
+      TabOrder = 2
+    end
+  end
+  object rgSearchDirection: TRadioGroup
+    Left = 216
+    Height = 73
+    Top = 56
+    Width = 200
+    AutoFill = True
+    Caption = 'rgSearchDirection'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 55
+    ClientWidth = 196
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchDirectionForward'
+      'riSearchDirectionBackward'
+    )
+    TabOrder = 4
+  end
+  object rgSearchScope: TRadioGroup
+    Left = 8
+    Height = 65
+    Top = 136
+    Width = 201
+    AutoFill = True
+    Caption = 'rgSearchScope'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 47
+    ClientWidth = 197
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchScopeGlobal'
+      'riSearchScopeSelected'
+    )
+    TabOrder = 5
+  end
+  object rgSearchOrigin: TRadioGroup
+    Left = 216
+    Height = 65
+    Top = 136
+    Width = 200
+    AutoFill = True
+    Caption = 'rgSearchOrigin'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 47
+    ClientWidth = 196
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchOriginCursor'
+      'riSearchOriginEntire'
+    )
+    TabOrder = 6
+  end
+  object edSearchTextToSearch: TComboBox
+    Left = 128
+    Height = 21
+    Top = 8
+    Width = 289
+    ItemHeight = 13
+    TabOrder = 7
+  end
+  object cbFieldName: TComboBox
+    Left = 128
+    Height = 21
+    Top = 32
+    Width = 289
+    ItemHeight = 13
+    Style = csDropDownList
+    TabOrder = 8
+  end
+end

@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="feditruntimedemo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="24" Y="11"/>
+        <UsageCount Value="44"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ufrmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmmain"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="45"/>
+        <CursorPos X="1" Y="54"/>
+        <UsageCount Value="44"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <UnitName Value="sdvfmngrs"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="962"/>
+        <CursorPos X="1" Y="971"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\sources\sdvfctrls.pas"/>
+        <UnitName Value="sdvfctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="15"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="14"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <UnitName Value="sdvmsgctrls"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="27"/>
+        <CursorPos X="37" Y="33"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\fpc\2.6.0\source\packages\fcl-image\src\fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="89"/>
+        <CursorPos X="19" Y="105"/>
+        <UsageCount Value="14"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\umlclib\laz60\sources\sdvdoscolors.pas"/>
+        <UnitName Value="sdvdoscolors"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="11" Y="72"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\sources\sdvfmemos.pas"/>
+        <UnitName Value="sdvfmemos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="592"/>
+        <CursorPos X="1" Y="519"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\sources\sdvfedits.pas"/>
+        <UnitName Value="sdvfedits"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1049"/>
+        <CursorPos X="1" Y="1058"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\sources\sdvmaskeds.pas"/>
+        <UnitName Value="sdvmaskeds"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="33" Y="31"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1823"/>
+        <CursorPos X="3" Y="1832"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\sources\sdvfmaskeds.pas"/>
+        <UnitName Value="sdvfmaskeds"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="505"/>
+        <CursorPos X="1" Y="517"/>
+        <UsageCount Value="11"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\..\umlcctrls\laz60\sources\sdvmaskeds.pas"/>
+        <UnitName Value="sdvmaskeds"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4843"/>
+        <CursorPos X="1" Y="4852"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgtypes.pas"/>
+        <UnitName Value="sdvmsgtypes"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="324"/>
+        <CursorPos X="1" Y="336"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvactivatedcontrols.pas"/>
+        <UnitName Value="sdvactivatedcontrols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="109"/>
+        <CursorPos X="40" Y="112"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvcomponents.pas"/>
+        <UnitName Value="sdvcomponents"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="80"/>
+        <CursorPos X="17" Y="89"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="53" Column="26" TopLine="45"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="711" Column="1" TopLine="702"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="713" Column="1" TopLine="702"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="712" Column="1" TopLine="702"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="937" Column="1" TopLine="928"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="969" Column="1" TopLine="960"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="938" Column="1" TopLine="929"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="270" Column="1" TopLine="266"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="275" Column="1" TopLine="266"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="271" Column="1" TopLine="266"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="272" Column="1" TopLine="266"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="938" Column="1" TopLine="929"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\sources\sdvfedits.pas"/>
+        <Caret Line="1066" Column="29" TopLine="1032"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="54" Column="1" TopLine="45"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="711" Column="1" TopLine="702"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="54" Column="1" TopLine="45"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\sources\sdvfedits.pas"/>
+        <Caret Line="1058" Column="1" TopLine="1049"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="54" Column="1" TopLine="45"/>
+      </Position18>
+      <Position19>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="939" Column="1" TopLine="930"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="971" Column="1" TopLine="962"/>
+      </Position20>
+      <Position21>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="940" Column="1" TopLine="931"/>
+      </Position21>
+      <Position22>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="270" Column="1" TopLine="266"/>
+      </Position22>
+      <Position23>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="275" Column="1" TopLine="266"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="271" Column="1" TopLine="266"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="272" Column="1" TopLine="266"/>
+      </Position25>
+      <Position26>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgctrls.pas"/>
+        <Caret Line="33" Column="37" TopLine="27"/>
+      </Position26>
+      <Position27>
+        <Filename Value="..\..\..\..\..\umlctools\laz60\sources\sdvmsgtypes.pas"/>
+        <Caret Line="336" Column="1" TopLine="324"/>
+      </Position27>
+      <Position28>
+        <Filename Value="..\..\..\sources\sdvfedits.pas"/>
+        <Caret Line="1058" Column="1" TopLine="1049"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ufrmMain.pas"/>
+        <Caret Line="54" Column="1" TopLine="45"/>
+      </Position29>
+      <Position30>
+        <Filename Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Caret Line="939" Column="1" TopLine="931"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\sources\sdvfedits.pas"/>
+        <Line Value="1038"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="ufrmMain.pas"/>
+        <Line Value="54"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\sources\sdvfmngrs.pas"/>
+        <Line Value="944"/>
+      </Item3>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

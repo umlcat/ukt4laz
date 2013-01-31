@@ -1,0 +1,65 @@
+object uktfrmInputStrings: TuktfrmInputStrings
+  Left = 315
+  Height = 289
+  Top = 219
+  Width = 352
+  Caption = 'uktfrmInputStrings'
+  ClientHeight = 289
+  ClientWidth = 352
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  object MainStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 266
+    Width = 352
+    Panels = <>
+  end
+  object lblLabel: TLabel
+    Left = 7
+    Height = 14
+    Top = 8
+    Width = 37
+    Caption = 'lblLabel'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object AnswerMemo: TMemo
+    Left = 8
+    Height = 192
+    Top = 24
+    Width = 334
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 1
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 232
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 2
+  end
+  object btnCancel: TButton
+    Left = 264
+    Height = 25
+    Top = 232
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 3
+  end
+end

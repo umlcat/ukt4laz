@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="runukttools60"/>
+    <Author Value="Marco Aurelio Ramirez Carrillo"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="sources"/>
+        <OtherUnitFiles Value="sources"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Other>
+        <CompilerMessages>
+          <MsgFileName Value=""/>
+        </CompilerMessages>
+        <CompilerPath Value="$(CompPath)"/>
+      </Other>
+    </CompilerOptions>
+    <Description Value="UMLCat Tool &amp; Component Libraries Runtime Package"/>
+    <License Value="(**
+ **************************************************************************
+ *                                                                        *
+ *  This file is part of the UMLCat Component Library.          *
+ *                                                                        *
+ *  See the file COPYING.modifiedLGPL.txt, included in this distribution, *
+ *  for details about the copyright.                                      *
+ *                                                                        *
+ *  This program is distributed in the hope that it will be useful,       *
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                  *
+ *                                                                        *
+ **************************************************************************
+**)"/>
+    <Version Major="1"/>
+    <Files Count="18">
+      <Item1>
+        <Filename Value="sources\uktundomngrs.pas"/>
+        <UnitName Value="uktundomngrs"/>
+      </Item1>
+      <Item2>
+        <Filename Value="sources\uktactivatedcontrols.pas"/>
+        <UnitName Value="uktactivatedcontrols"/>
+      </Item2>
+      <Item3>
+        <Filename Value="sources\uktbookmngrs.pas"/>
+        <UnitName Value="uktbookmngrs"/>
+      </Item3>
+      <Item4>
+        <Filename Value="sources\uktcomponents.pas"/>
+        <UnitName Value="uktcomponents"/>
+      </Item4>
+      <Item5>
+        <Filename Value="sources\uktdocs.pas"/>
+        <UnitName Value="uktdocs"/>
+      </Item5>
+      <Item6>
+        <Filename Value="sources\uktdocsres.pas"/>
+        <UnitName Value="uktdocsres"/>
+      </Item6>
+      <Item7>
+        <Filename Value="sources\uktfilefilters.pas"/>
+        <UnitName Value="uktfilefilters"/>
+      </Item7>
+      <Item8>
+        <Filename Value="sources\uktmsgctrls.pas"/>
+        <UnitName Value="uktmsgctrls"/>
+      </Item8>
+      <Item9>
+        <Filename Value="sources\uktmsgdlgstrs.pas"/>
+        <UnitName Value="uktmsgdlgstrs"/>
+      </Item9>
+      <Item10>
+        <Filename Value="sources\uktmsgdlgtypes.pas"/>
+        <UnitName Value="uktmsgdlgtypes"/>
+      </Item10>
+      <Item11>
+        <Filename Value="sources\uktmsgtypes.pas"/>
+        <UnitName Value="uktmsgtypes"/>
+      </Item11>
+      <Item12>
+        <Filename Value="sources\uktressrchmngrs.pas"/>
+        <UnitName Value="uktressrchmngrs"/>
+      </Item12>
+      <Item13>
+        <Filename Value="sources\uktressrchtxtdlgs.pas"/>
+        <UnitName Value="uktressrchtxtdlgs"/>
+      </Item13>
+      <Item14>
+        <Filename Value="sources\uktsrchtypes.pas"/>
+        <UnitName Value="uktsrchtypes"/>
+      </Item14>
+      <Item15>
+        <Filename Value="sources\uktstdevents.pas"/>
+        <UnitName Value="uktstdevents"/>
+      </Item15>
+      <Item16>
+        <Filename Value="sources\ukttools_language.inc"/>
+        <Type Value="Include"/>
+      </Item16>
+      <Item17>
+        <Filename Value="sources\ukttreestates.pas"/>
+        <UnitName Value="ukttreestates"/>
+      </Item17>
+      <Item18>
+        <Filename Value="docs\COPYING.GPL.txt"/>
+        <Type Value="Text"/>
+      </Item18>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="runuktlib60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCLBase"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

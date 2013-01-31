@@ -1,0 +1,5 @@
+{.define LanguageEnglish}
+{.define LanguageSpanishEurope}
+{$define LanguageSpanishLatam}
+{.define LanguageFrench}
+{.define LanguageGerman}

@@ -1,0 +1,111 @@
+object uktfrmInputDate: TuktfrmInputDate
+  Left = 274
+  Height = 130
+  Top = 366
+  Width = 350
+  ActiveControl = edYear
+  Caption = 'uktfrmInputDate'
+  ClientHeight = 130
+  ClientWidth = 350
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object lbMessage: TLabel
+    Left = 7
+    Height = 14
+    Top = 10
+    Width = 52
+    Caption = 'lbMessage'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbYear: TLabel
+    Left = 7
+    Height = 14
+    Top = 58
+    Width = 31
+    Caption = 'lbYear'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbMonth: TLabel
+    Left = 63
+    Height = 14
+    Top = 58
+    Width = 39
+    Caption = 'lbMonth'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object lbDay: TLabel
+    Left = 119
+    Height = 14
+    Top = 58
+    Width = 28
+    Caption = 'lbDay'
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnOK: TButton
+    Left = 182
+    Height = 25
+    Top = 65
+    Width = 75
+    Caption = 'btnOK'
+    Default = True
+    ModalResult = 2
+    OnClick = btnOKClick
+    TabOrder = 3
+  end
+  object btnCancel: TButton
+    Left = 262
+    Height = 25
+    Top = 65
+    Width = 75
+    Cancel = True
+    Caption = 'btnCancel'
+    ModalResult = 1
+    OnClick = btnCancelClick
+    TabOrder = 4
+  end
+  object edYear: TMaskEdit
+    Left = 8
+    Height = 21
+    Top = 32
+    Width = 44
+    MaxLength = 4
+    TabOrder = 0
+    EditMask = '0000;0;0'
+    SpaceChar = '0'
+  end
+  object edMonth: TMaskEdit
+    Left = 64
+    Height = 21
+    Top = 32
+    Width = 46
+    MaxLength = 2
+    TabOrder = 1
+    EditMask = '90;0;0'
+    SpaceChar = '0'
+  end
+  object edDay: TMaskEdit
+    Left = 120
+    Height = 21
+    Top = 32
+    Width = 44
+    MaxLength = 2
+    TabOrder = 2
+    EditMask = '90;0;0'
+    SpaceChar = '0'
+  end
+end

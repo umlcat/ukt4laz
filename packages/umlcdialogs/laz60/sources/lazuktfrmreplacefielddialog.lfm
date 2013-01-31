@@ -1,0 +1,268 @@
+object uktfrmReplaceFieldDialog: TuktfrmReplaceFieldDialog
+  Left = 311
+  Height = 299
+  Top = 237
+  Width = 444
+  BorderStyle = bsSingle
+  Caption = 'uktfrmReplaceFieldDialog'
+  ClientHeight = 299
+  ClientWidth = 444
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Icon.Data = {
+    3E01000000000100010010101000000000002801000016000000280000001000
+    0000200000000100040000000000C00000000000000000000000000000000000
+    0000000000000000800000800000008080008000000080008000808000008080
+    8000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFF
+    FF00000000000000000000000000000011100000000000001001000000000000
+    1001000000000000111000000000000010010000000000001001000000000000
+    1110000000000000000000000000000000004000400000000000400040000000
+    0000444440000000000004040000000000000404000000000000004000000000
+    0000FFFF0000FF710000FF360000F5160000DF310000FF760000DFF60000FFF1
+    0000DFFF0000FFFF000077FF000077FF000007FF0000AFFF0000AFFF0000DFFF
+    0000
+  }
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnDeactivate = FormDeactivate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  object lbReplaceTextToSearch: TLabel
+    Left = 8
+    Height = 14
+    Top = 12
+    Width = 117
+    Caption = 'lbReplaceTextToSearch'
+    ParentColor = False
+  end
+  object lbReplaceReplaceWith: TLabel
+    Left = 8
+    Height = 14
+    Top = 36
+    Width = 111
+    Caption = 'lbReplaceReplaceWith'
+    ParentColor = False
+  end
+  object lbFieldName: TLabel
+    Left = 8
+    Height = 14
+    Top = 60
+    Width = 59
+    Caption = 'lbFieldName'
+    FocusControl = cbFieldName
+    ParentColor = False
+  end
+  object btnCopy: TSpeedButton
+    Left = 408
+    Height = 22
+    Top = 32
+    Width = 23
+    Color = clBtnFace
+    Glyph.Data = {
+      F6000000424DF600000000000000760000002800000010000000100000000100
+      0400000000008000000000000000000000001000000000000000000000000000
+      8000008000000080800080000000800080008080000080808000C0C0C0000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00666666666666
+      66666666666666666666666666611111111166666661FFFFFFF166666661F000
+      00F164444441FFFFFFF164FFFFF1F00000F164F00001FFFFFFF164FFFFF1F00F
+      111164F00001FFFF1F1664FFFFF1FFFF116664F00F411111166664FFFF4F0666
+      666664FFFF446666666664444446666666666666666666666666
+    }
+    NumGlyphs = 0
+    OnClick = btnCopyClick
+  end
+  object edReplaceTextToSearch: TComboBox
+    Left = 128
+    Height = 21
+    Top = 8
+    Width = 305
+    ItemHeight = 13
+    TabOrder = 0
+  end
+  object gbReplaceOptions: TGroupBox
+    Left = 8
+    Height = 185
+    Top = 80
+    Width = 217
+    Caption = 'gbReplaceOptions'
+    ClientHeight = 167
+    ClientWidth = 213
+    TabOrder = 2
+    object chbReplaceCaseSensitive: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 16
+      Width = 143
+      Caption = 'chbReplaceCaseSensitive'
+      TabOrder = 0
+    end
+    object chbReplaceWholeWordsOnly: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 32
+      Width = 159
+      Caption = 'chbReplaceWholeWordsOnly'
+      TabOrder = 1
+    end
+    object chbReplaceRegularExpressions: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 48
+      Width = 169
+      Caption = 'chbReplaceRegularExpressions'
+      TabOrder = 2
+    end
+    object chbReplacePromptOnReplace: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 72
+      Width = 163
+      Caption = 'chbReplacePromptOnReplace'
+      TabOrder = 3
+    end
+    object chbReplaceDeleteOnReplace: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 88
+      Width = 161
+      Caption = 'chbReplaceDeleteOnReplace'
+      OnClick = chbReplaceDeleteOnReplaceClick
+      TabOrder = 4
+    end
+    object chbReplaceKeepCapitalCase: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 104
+      Width = 157
+      Caption = 'chbReplaceKeepCapitalCase'
+      TabOrder = 5
+    end
+  end
+  object rgReplaceDirection: TRadioGroup
+    Left = 232
+    Height = 57
+    Top = 144
+    Width = 201
+    AutoFill = True
+    Caption = 'rgReplaceDirection'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 39
+    ClientWidth = 197
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchDirectionForward'
+      'riSearchDirectionBackward'
+    )
+    TabOrder = 3
+  end
+  object rgReplaceScope: TRadioGroup
+    Left = 232
+    Height = 57
+    Top = 80
+    Width = 201
+    AutoFill = True
+    Caption = 'rgReplaceScope'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 39
+    ClientWidth = 197
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchScopeGlobal'
+      'riSearchScopeSelected'
+    )
+    TabOrder = 4
+  end
+  object rgReplaceOrigin: TRadioGroup
+    Left = 232
+    Height = 57
+    Top = 208
+    Width = 201
+    AutoFill = True
+    Caption = 'rgReplaceOrigin'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 39
+    ClientWidth = 197
+    ItemIndex = 0
+    Items.Strings = (
+      'riSearchOriginCursor'
+      'riSearchOriginEntire'
+    )
+    TabOrder = 5
+  end
+  object edReplaceReplaceWith: TComboBox
+    Left = 128
+    Height = 21
+    Top = 32
+    Width = 273
+    ItemHeight = 13
+    TabOrder = 1
+  end
+  object btnOK: TButton
+    Left = 61
+    Height = 25
+    Top = 272
+    Width = 92
+    Caption = 'btnOK'
+    Default = True
+    OnClick = btnOKClick
+    TabOrder = 6
+  end
+  object btnALL: TButton
+    Left = 157
+    Height = 25
+    Top = 272
+    Width = 92
+    Caption = 'btnALL'
+    OnClick = btnALLClick
+    TabOrder = 7
+  end
+  object btnCancel: TButton
+    Left = 253
+    Height = 25
+    Top = 272
+    Width = 92
+    Cancel = True
+    Caption = 'btnCancel'
+    OnClick = btnCancelClick
+    TabOrder = 8
+  end
+  object btnHelp: TButton
+    Left = 349
+    Height = 25
+    Top = 272
+    Width = 92
+    Caption = 'btnHelp'
+    OnClick = btnHelpClick
+    TabOrder = 9
+  end
+  object cbFieldName: TComboBox
+    Left = 128
+    Height = 21
+    Top = 56
+    Width = 305
+    ItemHeight = 13
+    Style = csDropDownList
+    TabOrder = 10
+  end
+end
